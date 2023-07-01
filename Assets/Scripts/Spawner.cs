@@ -9,7 +9,7 @@ public class Spawner : MonoBehaviour
 
     private Transform[] _spawners;
 
-    void Start()
+    private void Start()
     {
         _spawners = GetComponentsInChildren<Transform>();
         StartCoroutine(Spawn());
